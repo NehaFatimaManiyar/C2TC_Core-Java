@@ -1,9 +1,14 @@
 package newprogram;
 
+import java.util.Scanner;
+
 public class ExStatic { 
-	
 	static void EvenOdd(int num) { //using Static method
 		
+		System.out.println("Enter any number:");
+		Scanner sc =new Scanner (System.in);
+		num = sc.nextInt();//3
+		sc.close();
 		if(num%2==0) 
 		System.out.println("The given number " + num + " is is Even.");
 		
@@ -13,8 +18,8 @@ public class ExStatic {
 		}
 	
 	void DispStatic() { // using non static method 
-		int a=1,b=3, sum;
-		sum = ( a + b);
+		int num=1;
+		int sum = (num+num);
 		System.out.println("The sum of the numbers is:" + sum);
 		
 		
@@ -22,9 +27,10 @@ public class ExStatic {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-     ExStatic.EvenOdd(9);
+     ExStatic.EvenOdd(0);
     ExStatic st =new ExStatic();
     		st.DispStatic();
      
-	}
+	} 
+	
 	}
