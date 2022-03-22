@@ -2,17 +2,13 @@ abstract class Bike {  //Defining Abstract class
 	abstract void run();//abstract method run();
 	
 }
-
 class Royal_Enfield_Bullet_350 extends Bike {
-	
-	@Override
 	void run() {  //overriding the abstract method for implementation
+
 		// TODO Auto-generated method stub
-		
+	System.out.println("Go slow & run Safely....");
 	}
 }
-
-
 
 public class AbsMethod {
 
