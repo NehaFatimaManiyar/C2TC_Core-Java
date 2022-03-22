@@ -9,7 +9,6 @@ public class ConvertKmToMiles {
 		float km = sc.nextFloat();
 		float convert = (km * miles); 
 		System.out.println("The conversion is : " + convert + " Miles");
-
+sc.close();
 	}
-
 }
