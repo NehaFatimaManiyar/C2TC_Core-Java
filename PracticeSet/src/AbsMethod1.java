@@ -24,7 +24,9 @@ public class AbsMethod1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     Shape sp = new Circle();
+    Shape s = new Rectangle();
     sp.draw();
+    s.draw();
     
 	}
 

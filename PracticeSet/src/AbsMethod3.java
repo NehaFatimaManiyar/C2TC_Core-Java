@@ -4,21 +4,14 @@ abstract class Bikes {
 	}
 	
 	abstract void run();
-<<<<<<< Upstream, based on origin/master
+
+	
 	void changeGear() {
 		System.out.println("Gear changed");
 	}
 	
 }
 
-=======
-	
-	void changeGear() {
-		System.out.println("Gear changed");
-	}
-	
-}
->>>>>>> bbe5137 first commit
 
 class Honda extends Bikes {
 	void run() {
