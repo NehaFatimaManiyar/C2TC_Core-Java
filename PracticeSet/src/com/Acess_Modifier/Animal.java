@@ -1,7 +1,7 @@
 package com.Acess_Modifier;
 
 public class Animal {
-	
+	//PROTECTED ACCESS MODIFIER
 	protected void display() {
 		System.out.println("I am an Animal");
 	}

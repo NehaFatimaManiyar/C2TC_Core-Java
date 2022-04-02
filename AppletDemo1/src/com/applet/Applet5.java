@@ -6,7 +6,7 @@ import java.awt.Choice;
 public class Applet5 extends Applet{
 	Choice c;
 	
-	public void init() {
+	public void init() {  
 		c = new Choice();
 		c.add("Choice 1");
 		c.add("Choice 2");
