@@ -26,7 +26,7 @@ public class Applet2Part9_Adapt extends Applet {
 			}
 			
 		});
-	b2.addFocusListener(new FocusListener() {
+	    b2.addFocusListener(new FocusListener() {
 		public void focusGained(FocusEvent e) {
 			// TODO Auto-generated method stub
 			t.setText("");
